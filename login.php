@@ -1,6 +1,5 @@
   <?php 
  header("Content-type:text/html;charset=utf-8");
-
     // 模拟提交数据函数
     function postCurl($url,$data){
         $curl= curl_init();  // 启动一个CURL会话
